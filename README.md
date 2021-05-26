@@ -1,6 +1,6 @@
 # Modelling Interactions Between Traffic and Crosswalk Agents at Unsignalized Crossings
 
-This is the code used for investigating vehicle-bicycle interactions at unsignalized crossings. The research and results are elaborated in more depth in my Master's Thesis "Modelling Interactions Between Traffic and Crosswalk Agents at Unsignalized Crossings" (link will soon be added).
+This is the code used for investigating vehicle-bicycle interactions at unsignalized crossings. The research and results are elaborated in more depth in my Master's Thesis "Modelling Interactions Between Traffic and Crosswalk Agents at Unsignalized Crossings" (_link will soon be added_).
 
 High level work process: 
 * Investigating vehicle and bicycle trajectories  
@@ -21,8 +21,7 @@ High level work process:
     - _"minSpeedDistance"_
 * Investigating possible interactions
     - Estimating conflict probability using logistic regression model and labelled interactions
-    - Defining conflict events using ATD range of -2.5 to +5 seconds (identified by estimating conflict probability)
-    - Dividing data into conflict, non-conflict, yield and non-yield groups (ATD of -2.5 to +5 seconds identified to separate conflict events by estimating conflict probability)
+    - Dividing possible interactions into conflict, non-conflict, yield and non-yield events (ATD of -2.5 to +5 seconds identified to separate conflict events by estimating conflict probability)
     - Plotting data relative to different features and different event groups
     - Selecting features using _f_regression_
     - Estimating yielding probability using logistic regression model and different combinations of selected features
